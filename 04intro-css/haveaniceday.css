@@ -1,0 +1,129 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px; 
+  font-weight: 300;
+  margin: 0;   
+}
+
+/* Header Info Here */
+header {
+    background-color: white;
+    padding: 1rem 2vw;  
+}
+header h1 {
+    margin: 0;
+    color: #086739;
+}
+header p {
+    color: #086739; 
+    margin: 0 3vw;
+    letter-spacing: 2px;
+ 
+}
+
+/* Navigation Info Here */
+nav {
+    background-color: #086739; 
+}
+nav ul {
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0; 
+    display: flex;
+}
+nav ul li a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    display: block;
+    padding: .7rem 2rem;
+    
+}
+
+nav li.active a {
+    background-color: white;
+    color: #086739;
+}
+
+nav a:hover {
+    color: black;
+}
+
+/* Main Info Here */
+main {
+    padding: 1rem 2vw;
+}
+
+main h1 {
+    color: #086739;
+}
+main h2 {
+    color: #086739;
+    margin-bottom: .2rem;
+}
+main p {
+    color: #2f3133;
+    margin: 0 0 .3rem 0;
+}
+
+main ol {
+    padding: .5rem 3vw;
+    background-color: #efefef;
+    
+}
+
+main dl dt {
+    color: #086739;
+    font-weight: 700;
+}
+
+main dl dd {
+    color: #2f3133;
+    font-size: .9rem;
+    
+}
+
+main ul {
+    list-style-type: circle;
+}
+
+
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+
+main address {
+    font-style: normal;
+    background-color: #efefef;
+    color: black;
+    padding: .5rem;
+    width: 13.5rem;
+    border: 1px solid #086739;
+    border-radius: 5px;
+}
+
+main a {
+    color: #086739;
+}
+
+main a:hover {
+    color: #2f3133;
+}
+
+/* Footer Info Here */
+
+footer {
+    background-color: #efefef;
+    text-align: center;
+    color: #086739;
+    padding: 1rem 0;
+    Font-size: .8rem;
+    
+}
+
+footer a {
+    color: #086739;
+}
